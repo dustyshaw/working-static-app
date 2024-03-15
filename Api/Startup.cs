@@ -10,5 +10,6 @@ public class Startup : FunctionsStartup
     public override void Configure(IFunctionsHostBuilder builder)
     {
         builder.Services.AddSingleton<IProductData, ProductData>();
+        // TODO Add dependency injections here
     }
 }
